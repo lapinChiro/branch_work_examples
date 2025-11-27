@@ -28,6 +28,10 @@
    - releaseブランチを省略したシンプルな並列開発モデル
    - developブランチから直接mainにマージ
 
+6. **[変形GitFlow（v2ブランチ併用版）](diagrams/v2-branch-gitflow)**
+   - 後方互換性のない大幅な改修のための二重ブランチ運用
+   - 通常フロー（main/develop）と新バージョンフロー（main-v2/develop-v2）を並行運用
+
 ## 関連ドキュメント
 
 - [ブランチワークの要件](requirement.md)
